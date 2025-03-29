@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(212, 212, 210);
+}
+
+.calc-body {
+  background-color: rgb(28, 28, 28);
+  height: 565px;
+  width: 580px;
+  border-radius: 3%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  justify-content: space-evenly;
+  height: 385px;
+  bottom: 1px;
+  /* background-color: rgb(80, 80, 80); */
+  border-radius: 3%;
+}
+
+button {
+  height: 80px;
+  width: 100px;
+  border-radius: 20%;
+  font-size: 30px;
+}
+
+.title {
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 40px;
+  font-size: 64px;
+}
+
+.screen {
+  width: 520px;
+  height: 130px;
+  background-color: rgb(85 81 81);
+  border: 1px solid rgb(255, 149, 0);
+  position: absolute;
+  top: 25px;
+  border-radius: -124%;
+}
+
+.operator {
+  background-color: #6c72d4;
+}
+
+#backspace {
+  background-color: #e74c3c;
+}
+
+#clear {
+  background-color: #e74c3c;
+}
+
+#equalsto {
+  background-color: #2ecc71;
+}
+
+#percent {
+  background-color: #2ecc71;
+}
+
+.numkeys {
+  background-color: rgb(176, 163, 163);
+}
+
+#squared {
+  background-color: rgb(176, 163, 163);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displaytext {
+  width: 500px;
+  height: 50px;
+  text-align: right;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 50px;
+  color: rgb(221 210 210);
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
